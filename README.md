@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # archer
 基于inception的自动化SQL操作平台
 
@@ -129,3 +130,7 @@ QQ群：524233225
 解决：如果实在忍受不了，请修改/path/to/python3/lib/python3.4/site-packages/pymysql/cursors.py:338行，将self._show_warnings()这一句注释掉，换成pass，如下：<br/>
 ![image](https://github.com/jly8866/archer/raw/master/screenshots/bugs/bug3.png)<br/>
 但是此方法有副作用，会导致所有调用该pymysql模块的程序不能show warnings，因此强烈推荐使用virtualenv或venv环境！
+=======
+# archer
+mysql自动化运维工具archer
+>>>>>>> e3faa480508a2b31adfb1881482f305623f43566
